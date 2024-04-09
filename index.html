@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for defining document properties -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="Harith Obeid, About Me">
+    <meta name="description" content="About Harith Obeid">
+    <meta name="author" content="Harith Obeid">
+    
+    <!-- Link to external CSS files -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav.css" />
+    
+    <!-- Title of the document -->
+    <title>Home / About Me</title>
+</head>
+
+<body>
+    <!-- Header section containing navigation -->
+    <header id="top">
+        <nav>
+            <!-- Navigation menu -->
+            <ul>
+                <!-- Home link -->
+                <li class="home" id="Index.html">Home / About Me</li>
+                <!-- About link -->
+                <li class="projects"><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main  section -->
+    <main>
+        <!-- Section 1: Introduction -->
+        <div>
+            <hr/>
+            <!-- Heading -->
+            <h3 id="Computers history">Meet Harith Obeid</h3>
+            <!-- Paragraph -->
+            <p>
+                I am currently a first year Computer Information Systems student studying at Mount Royal University. 
+                I am still seeking proper work experince in the tech industy as all the work experience I have as of right now is just retail.
+            </p>
+            <!-- Video about me -->
+            <video width="300" height="200" controls muted>
+                <source src="VideoAboutMe.mp4" type="video/mp4">
+                Your browser does not support the video type.
+                
+            </video>
+
+        </div>
+    
+        
+            <hr/>
+        
+        <!-- Section 3: Computer History -->
+<div id="Computer_History">
+    <!-- First Row -->
+    <div class="flex-row">
+        <!-- List item 1 -->
+        <div class="flex-item">
+            <h4>My hobbies</h4>
+            <p>My major hobbies are hunting and playing basketball. People are usually shocked when they find out I hunt but it's 
+                something I have been doing with my dad since I was 5 years old.
+            </p>
+        </div>
+    </div>
+    <!-- Second Row -->
+    <div class="flex-row">
+        <!-- List item 5 -->
+        <div class="flex-item">
+            <h4>My achievments</h4>
+            <p><ol>
+                <li>One of my major achievments earlier in my life was when I got silver in the city wide youth science fair when I was 10 years old for creating a videogame
+                for the blind making it controlled using sounds.</li>
+                <li>One of my acheivments most recently was when I got honors for the Fall 2024 semester.</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- Section 4: Contact Us -->
+        <article>
+            <!-- Heading -->
+            <h1>Contact Me! </h1>
+            <hr>
+            <!-- Paragraph -->
+            <p>If you have any questions or inquires about me please feel free to email me through hobei971@mtroyal.ca or use the form below:</p>
+            <br>
+            <!-- Image -->
+            <img src="images/contact_me.jpg" alt="Contact Me" height="150px" width="150px">
+            <!-- Form for contacting -->
+            <form action="mailto:hobei971@mtroyal.ca" method="get">
+                <!-- Form inputs -->
+                <p>
+                    <label>
+                        Subject: <span class="required">(required)</span>
+                        <br>
+                        <input type="text" name="subject" maxlength="45" required />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Name: <span class="required">(required)</span>
+                        <br>
+                        <input type="text" placeholder="First Last" name="name" required />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Date <input type="date" name="date"/>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Message: <span class="required">(required)</span>
+                        <br>
+                        <textarea name="Comment" rows="5" cols="50" required ></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email: <span class="required">(required)</span>
+                        <br>
+                        <input type="text" placeholder="abc@xyz.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Phone:
+                        <br>
+                        <input type="text" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" />
+                    </label>
+                </p>
+
+                <p> <input type="submit" value="Submit"> <input type="reset" value="Clear"></p>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>About Harith Obeid&copy;</p>
+        <a href="index.html">Home/About Me</a>&#124;
+        <a href="projects.html">Projects</a>&#124;
+    </footer>
+</body>
+

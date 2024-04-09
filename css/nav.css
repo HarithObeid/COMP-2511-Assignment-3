@@ -1,0 +1,68 @@
+nav {
+    text-align: center;
+    width: 790px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .nav-links {
+    float: right;
+}
+
+nav .nav-links li {
+    display: block;
+}
+
+nav img {
+    width: 125px;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+/* Change the color of the links when hovered on */
+nav li a:hover {
+    background-color: white;
+    color: blue;
+}
+
+@media (max-width: 790px){
+    body{
+        max-width: 790px;
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+}
+
+@media (min-width: 791px){
+
+}
+
+
