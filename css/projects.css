@@ -17,15 +17,9 @@ body{
     background-color: lightcyan;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
-}
 
 hr {
-    height: 5px;
+    height: 2px;
     color: white;
     background-color: blue;
 }
